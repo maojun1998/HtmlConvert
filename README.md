@@ -1,9 +1,7 @@
-# HtmlConvert
-
-Converting code to HTML for easy source reading
-
 #Build
+
 How to use this tools?
+
    First， Compiling Java HtmlConvert and Wbaht classes.
    
         eg: javac HtmlConvert.java  
