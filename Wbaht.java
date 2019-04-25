@@ -37,7 +37,7 @@ public class Wbaht {
 		fp = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(indexFile), "gbk"));
 		String contentStr = INDEX_HEADER;
 		contentStr += "        <h1>Index of /"+ file.getName() + "</h1><hr>\n";
-		if (pathName.equals(rootDirectory))
+		if (!pathName.equals(rootDirectory))
 	        contentStr += "        <a href=\"../index.html\">../</a><br>\n";
         if (file.exists()) {
             File[] files = file.listFiles();
